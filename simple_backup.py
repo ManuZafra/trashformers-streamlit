@@ -68,7 +68,7 @@ background_style = f"""
     h1 {{
         font-size: 4.7em; /* Tamaño de la fuente */
         color: orange; /* Color de la letra */
-        text-shadow: -4px -4px 0 blue, 4px -4px 0 yellow, -4px 4px 0 blue, 4px 3px 0 yellow; /* Grosor del borde */
+        text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 blue, 4px 3px 0 black; /* Grosor del borde */
         font-family: 'Montserrat', sans-serif;
         text-align: right; /* Alinea el texto a la derecha */
         position: fixed; /* Fijar posición */
