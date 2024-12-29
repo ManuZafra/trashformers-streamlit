@@ -13,7 +13,7 @@ import streamlit as st
 
 
 if __name__ == "__main__":
-    st.title("Trashformers Streamlit App")
+    st.title("qué dise cabesa? esta es mi página web en pruebas. wiiiiiiii")
 
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:  # Ouvre le fichier en mode binaire.
