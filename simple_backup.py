@@ -224,7 +224,7 @@ def process_webcam_yolo(model_path):
     model = YOLO(model_path)
 
     st.title("")
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         st.error("Impossible d'accéder à la webcam.")
